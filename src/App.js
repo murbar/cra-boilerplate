@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import Header from 'components/Header';
+
+const Styles = styled.div`
+  margin: 0 2rem;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Styles>
+      <Header />
+      <p>
+        July, 2019 - is it{' '}
+        <a href="https://github.com/facebook/create-react-app/releases">up to date</a>?
+      </p>
+      <ul>
+        <li>No cruft</li>
+        <li>Styled components - global styles, theme, helpers</li>
+        <li>"Nunito" font face</li>
+      </ul>
+    </Styles>
   );
 }
 
