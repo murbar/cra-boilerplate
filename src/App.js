@@ -11,7 +11,7 @@ function App() {
     <Styles>
       <Header />
       <p>
-        July 2019 - is it{' '}
+        August 2019 - is it{' '}
         <a href="https://github.com/facebook/create-react-app/releases">up to date</a>?
       </p>
       <ul>
