@@ -11,7 +11,7 @@ function App() {
     <Styles>
       <Header />
       <p>
-        v3.4.0, Feb 2020 - is it{' '}
+        v3.4.1, Mar 2020 - is it{' '}
         <a href="https://github.com/facebook/create-react-app/releases">up to date</a>?
       </p>
       <ul>
