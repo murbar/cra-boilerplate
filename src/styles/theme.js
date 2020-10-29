@@ -1,4 +1,4 @@
-import { media } from './helpers';
+import { mediaQuery } from './helpers';
 
 const colors = {
   offWhite: '#efefef',
@@ -11,11 +11,11 @@ const theme = {
     ...colors,
     background: colors.offWhite,
     foreground: colors.offBlack,
-    primary: colors.green
+    primary: colors.green,
   },
   inputBorderRadius: `0.5rem`,
   fontFamily: "'Source Sans Pro', sans-serif",
-  media
+  mediaQuery,
 };
 
 export default theme;
